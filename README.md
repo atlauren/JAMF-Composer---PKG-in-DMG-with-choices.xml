@@ -1,5 +1,5 @@
-# CiscoSecureClient-choices.xml-Composer-Jamf
-This repo is for installing Cisco Secure Client, with a choices.xml, assembled with Composer, deploying via JAMF Pro.
+# JAMF Composer - PKG in DMG with choices
+This repo is for creating a macOS packaging using JAMF Composer, with a PKG inside a DMG file (as in the case of Cisco Secure Client), for deploying via JAMF Pro.
 
 1. Create a folder under `/private/tmp/`, using the name of your package (e.g. `org.foo.cisco-secure-client`)
 2. Copy the Cisco DMG (e.g. `cisco-secure-client-macos-5.1.6.103-predeploy-k9.dmg`) file, and your your `choices.xml`, into that directory.
