@@ -13,7 +13,7 @@ targetLocation=$2
 targetVolume=$3
 
 # Replace REPLACE_THIS with the DMG's mounted volume string
-# can be regex pattern
+# can be awk-compatible [basic] regex pattern
 VOLSTRING="REPLACE_THIS"
 
 # If using a choices.xml file, set CHOICESXML to y
